@@ -36,8 +36,8 @@ cd datasets
 ### Agregar Nuevos Datasets
 
 1. Crea una carpeta con un nombre descriptivo para tu dataset
-2. Incluye un archivo README en la carpeta explicando el contenido
-3. Si los archivos son grandes (>100MB), asegúrate de que Git LFS esté configurado
+2. Incluye un archivo README en la carpeta explicando el contenido y la licencia
+3. Si los archivos son grandes (>50MB), asegúrate de que Git LFS esté configurado
 4. Haz commit y push de los cambios
 
 ```bash
@@ -85,7 +85,7 @@ git lfs track "*.parquet"
 
 ## 📝 Licencia
 
-Por favor, verifica la licencia de cada dataset individual antes de utilizarlo. Los datos pueden estar sujetos a diferentes términos de uso.
+Por favor, verifica la licencia de cada dataset individual antes de utilizarlo. Los datos pueden estar sujetos a diferentes términos de uso. Cada dataset debe incluir información sobre su licencia en su respectivo archivo README o archivo LICENSE.
 
 ## 📧 Contacto
 
